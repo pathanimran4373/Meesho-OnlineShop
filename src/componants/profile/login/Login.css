@@ -1,0 +1,73 @@
+.login-form-container {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgb(253, 233, 242) 0%, rgb(253, 240, 232) 100%, rgb(253, 240, 232) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-box {
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 70%;
+    width: 350px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    padding: 0 20px;
+}
+
+h3 {
+    color:var(--hoverTextColor);
+    font-size: 30px;
+}
+
+.box {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    width: 100%;
+    height: 20px;
+    margin: 10px 0;
+}
+
+.hrLine {
+    width: 100%;
+    height: 3px;
+    background-color:var(--hoverTextColor);
+}
+
+.btn {
+    margin: 10px 0;
+    background-color:var(--hoverTextColor);
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 50px;
+    color: white;
+}
+
+.btn:hover {
+    color:white;
+}
+
+.botomLine {
+    margin-top: 20px;
+}
+
+.botomLink {
+    color: var(--hoverTextColor);
+    text-decoration: none;
+}
+
+.botomLink:hover {
+    color: rgb(156, 4, 4);
+}

@@ -1,0 +1,145 @@
+.single-product-page {
+  height: 120vh;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  background: linear-gradient(
+    rgb(253, 233, 242) 0%,
+    rgb(253, 240, 232) 100%,
+    rgb(253, 240, 232) 100%
+  );
+}
+
+.productdetail-section {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  margin: 50px 0 50px 0;
+  width: 1000px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.image-part {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
+
+.main-image img {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.pd-details {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  /* align-items: center; */
+  /* padding: 10px; */
+  width: 700px;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.home-btn {
+  position: absolute;
+  right: 150px;
+  height: 30px;
+  width: 100px;
+  background-color: var(--hoverTextColor);
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.home-btn:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.home-btn Link {
+  text-decoration: none;
+  text-decoration-line: none;
+}
+
+.pd-details h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.pd-details span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* colors choise */
+.color-btns {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.color-btns button {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: none;
+  margin: 10px;
+}
+
+.cheak-cursor {
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stars {
+  color: gold;
+}
+
+.reviews {
+  display: none;
+}
+
+/* product incrase decresae button */
+.product-incre-decrement {
+  height: 20px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+.product-incre-decrement button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.quantyties-and-cartbtn {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.cart-button {
+  margin-left: 20px;
+  background-color: var(--hoverTextColor);
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.cart-button:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,173 @@
+.header-section{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+.header{
+    height: 75px;
+    width: 100%;
+    background-color: white;
+    outline: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    font-weight: 400;
+}
+.headerLeft,
+.headerRight{
+    display: flex;
+    align-items: center;
+}
+.logocontainer{
+    width: 1px;
+    
+}
+.logocontainer img{
+     width: 155px;
+}
+.searchinputContainer{
+    width: 400px;
+    height: 45px;
+    outline: 1px solid rgb(126, 126, 126);
+    display: flex;
+    margin-left: 100px;
+    border-radius: 3px;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+}
+.searchIcon{
+    width: 20px;
+    margin: 6px;
+}
+form{
+    width: 100%;
+}
+.inputSerch{
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+#closeSearch{
+    display: none;
+}
+
+.searchRecentModal{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 45px;
+    background-color: white;
+    height: 375px;
+    width: 100%;
+    display: none;
+    padding: 15px;
+    box-shadow: 0px 0px 5px rgba(0,  0,  0,  0.3);
+}
+
+.searchinputContainer:focus-within .searchRecentModal{
+    display: block;
+}
+
+.recenticon{
+    width: 20px;
+    margin-right: 10px;
+}
+.recentitem{
+    display: flex;
+    align-items: center;
+}
+    /* right */
+.mobileicon{
+    width: 15px;
+    margin: 5px;
+}
+.downloadContainer{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-right: 20px;
+    position: relative;
+}
+.downloadContainer:hover{
+    color:var(--hoverTextColor);
+    cursor: pointer;
+    
+}
+.downloadBtn{
+    display: block;
+    width: 180px;
+    margin-top: 5px;
+}
+.downlodHoverBtnContainer{
+    position: absolute;
+    bottom: 0;
+    top: 40px;
+    /* box-shadow: 0px 0px 5px rgba(0,  0,  0,  0.3); */
+    width: 200%;
+    /* background-color: red; */
+    display: none;
+    height: 200px;
+    padding: 10px;
+    margin-left: -30px;
+    color: var(--textColor);
+    background-color: white;
+    
+}
+.downloadContainer:hover  .downlodHoverBtnContainer,
+.downloadContainer:focus  .downlodHoverBtnContainer{
+    display: block;
+    z-index: 2;
+}
+.downlodHoverBtnContainer h2{
+    font-size: 19px;
+}
+.downloadContainer p{
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+
+}
+.profileAndCart{
+    display: flex;
+    align-items: center;
+}
+.profileIcon,
+.cartIcon{
+    width: 20px;
+}
+.profileAndCart p {
+    margin: 0;
+    padding: 0;
+
+}
+/* .profileAndCart:hover,
+.profileAndCart:focus{
+    color: var(--hoverTextColor);
+
+} */
+.profileContainer:hover{
+    color: rgb(244, 51, 151);
+cursor: pointer;
+}
+.CartContainer:hover{
+    color:rgb(244, 51, 151);
+cursor: pointer;
+}
+.profileContainer,
+.CartContainer{
+    padding: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.becomeSupplierContainer{
+    padding: 0px 30px;
+    border-left: 1.5px solid #ccc;
+    border-right: 1.5px solid #ccc;
+    font-size: 17px;
+}

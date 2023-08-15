@@ -1,0 +1,216 @@
+.Row{
+    position: relative;
+    /* height: 400px; */
+      /* margin-top: 5rem; */
+      /* padding-top: 100rem; */
+    /* text-align: center; */
+    overflow-x: hidden;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.topCategoriesFrom{
+/* margin-top: 20rem; */
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    /* min-height: 80vh; */
+    /* padding: 0px; */
+    /* margin: auto; */
+}
+.topCategoriesFrom.active{
+    opacity: 1;
+}
+/* .topCategoriesFrom{
+    width: 1100px;
+    margin: auto;
+} */
+.topCategoriesHeading{
+    display: flex;
+    align-items: center;
+}
+.horizontalLine{
+    padding: 1px;
+    background-color: var(--hoverTextColor);
+    width: 50%;
+}
+.topCategoriesHeading h1{
+    width: max-content;
+    width: 1050px;
+    color: rgb(8, 8, 8);
+    font-size: 38px;
+    margin: 0;
+}
+.topCategoriesImage{
+    width: 90%;
+    height: 90%;
+    background-image: url("https://images.meesho.com/images/marketing/1649759774600.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-top: 50px; */
+    display: flex;
+    align-items: flex-end;
+    box-sizing: border-box;
+    padding: 10px;
+    
+}
+.topCategoriesImage img{
+    max-width: 300px;
+    margin: 10px;
+    bottom: 0;
+    
+}
+.topCategoriesImage img:first-child{
+    max-width: 400px;
+}
+
+.essentialContainer{
+    width: 90%;
+    height: 90%;
+    padding: 10px;
+    /* background-color: 400px; */
+    /* margin-top: 50px; */
+    background-image: url("https://images.meesho.com/images/marketing/1664343269674.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.essentialContainer img{
+    max-width: 180px;
+    
+}
+
+.essential_item{
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: red; */
+}
+.essen_btn{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+/* becomereseller_class */
+
+.becomeSellerBanner_Container{
+    /* margin: 50px 0px; */
+    width: 90%;
+    height: 90%;
+    padding: 10px;
+    position: relative;
+
+}
+.becomeSellerBanner_Container img{
+    width: 100%;
+    
+}
+.becomeSeller_content{
+   position: absolute;
+   top: 0;
+   right: 0;
+   width: 100%;
+   padding: 40px 0px;
+}    
+.becomeSeller_Content_Content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+margin-right: 15px;
+}
+.becomeseller_AppDownlod{
+    position: relative;
+     width: 150px;
+     height: 50px;
+     background-color: black;
+     margin: 10px;
+     padding: 5px;
+     border-radius: 5px;
+}
+.becomeseller_AppDownlod img{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.becomeSeller_Content_Content h2{
+    color: rgb(85, 133, 248);
+    font-size: 30px;
+    margin-bottom: 0;
+}
+.becomeSeller_Content_Content h1{
+    color: var(--hoverTextColor);
+    font-size: 40px;
+    width: 50%;
+    text-align: right;
+
+}
+.becomerSeller_appDownload_Container{
+    display: flex;
+}
+
+
+         /* Meesho_Supplier_Container */
+.Meesho_Supplier_Container{
+    margin-top: 50px;
+}
+         .meesho_benifit_Image{
+            width: 25px;
+            height: 25px;
+            margin-right: 10px;
+            /* margin-top: 10px; */
+            
+        }
+        .mesho_supplier-benifit{
+            display: flex;
+            align-items: center;
+            padding: 0px 40px;
+            border-right: 2px solid white;
+            height: 25px;
+        }
+        .mesho_supplier-benifit:first-child{
+            padding: 0;
+            padding-right: 40px;
+        }
+        .Meesho_Supplier_benifit_Container{
+            display: flex;
+            align-items: center;
+            margin: 40px 0px;
+        }
+        .Meesho_Supplier_Container{
+            position: relative;
+        }
+        .Meesho_Supplier_container_content{
+            position: absolute;
+            top: 0;
+            padding: 20px 20px;
+            color: white;
+        }
+        .Signup_btn_now{
+            background-color: white;
+            color: var(--hoverTextColor);
+            font-size: 18px;
+            font-weight: bold;
+            padding: 15px 20px;
+            box-sizing: border-box;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        
