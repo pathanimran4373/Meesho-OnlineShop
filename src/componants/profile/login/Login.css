@@ -53,10 +53,7 @@ h3 {
     width: 100%;
     height: 50px;
     color: white;
-}
-
-.btn:hover {
-    color:white;
+    cursor: pointer;
 }
 
 .botomLine {

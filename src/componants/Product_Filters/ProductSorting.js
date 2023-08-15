@@ -9,8 +9,10 @@ const SortProduct = () => {
   return (
     <div className='list-greed-section '>
       <div className='container-btn'>
-        <button className={GridView ? "active sort-btn" : "sort-btn"} onClick={setGridView} ><FaThLarge  className='btn-icon'/></button>
-        <button className={!GridView ? "active sort-btn" : "sort-btn"} onClick={setListView}><FaList className='btn-icon'/></button>
+        <button style={{background:"var(--hoverTextColor)",border:"none",outline:"none",color:"white"
+}} className={GridView ? "active sort-btn" : "sort-btn"} onClick={setGridView} ><FaThLarge  className='btn-icon'/></button>
+        <button style={{background:" var(--hoverTextColor)",border:"none",outline:"none",color:"white"
+}} className={!GridView ? "active sort-btn" : "sort-btn"} onClick={setListView}><FaList className='btn-icon'/></button>
       </div>
       <div className='show-product-quantity'>
         {/* <p style={{color:"whitesmoke"}}>{`${Productpage.length()} `}Product Available</p> */}

@@ -1,7 +1,7 @@
 /* page layout */
 .product-layout-page {
-    /* width: 100%; */
-
+margin-top: 20px;
+padding-top: 20px;
 }
 
 .product-layout-page h1 {
@@ -72,13 +72,6 @@
    width: 100%;
 }
 
-/* filter section by button */
-.filter-by-btn-section {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-}
-
 .filter-btn {
     display: flex;
     flex-direction: column;
@@ -103,7 +96,8 @@
 }
 
 .filter-btn button:hover {
-    color: red;
+    color: var(--hoverTextColor);
+
 }
 
 /* filter by company category */
@@ -196,16 +190,13 @@ cursor: pointer;
 }
 
 .view-btn {
+    cursor: pointer;
+    color: white;
     border: none;
     outline: none;
     height: 20px;
     margin-left: 10px;
-    background-color: whitesmoke;
-}
-
-.view-btn:hover {
-    background-color: red;
-   
+    background-color: var(--hoverTextColor);
 }
 
 /* sort product  by prices*/
@@ -235,14 +226,7 @@ cursor: pointer;
     width: 100%;
 }
 
-.show-product-quantity {
-    /* padding: 3px;
-    background-color: green;
-    z-index: 4; */
-}
-
 .drop-down-menu {
-    /* width: 100%; */
     padding: 2px;
 
 }

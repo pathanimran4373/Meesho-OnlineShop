@@ -12,7 +12,7 @@ const Product = () => {
                 {
                     ProductpageData.map((element) => {
                         return (
-                            <Link className='product-link' to={`/productdetail/${element.id}`}>
+                            <Link style={{textDecoration:"none"}} className='product-link' to={`/productdetail/${element.id}`}>
 
                             <div className='greed-product-box' key={element.id}>
                                 <figure>

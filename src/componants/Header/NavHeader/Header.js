@@ -10,6 +10,9 @@ function Header() {
     const handaleClick = () => {
         navigate("/login")
     }
+    const handleCart = () => {
+        navigate("/cart")
+    }
 
 
     return (
@@ -68,64 +71,65 @@ function Header() {
                                 <div class="cartIcon">
                                     <i class="fa-solid fa-cart-shopping"></i>
                                 </div>
-                                <p>cart</p>
+                                <p onClick={handleCart}>cart</p>
                             </div>
                         </div>
                     </div>
 
 
                 </header>
-                <nav class="navbar">
+               <Link to="/product" style={{textDecoration:"none"}}>
+               <nav class="navbar">
                     <ul>
-                        <li>Women Ethnic
-                            <div class="subMenu">
+                        <li>Mobile
+                            {/* <div class="subMenu">
                                 <h4>All Women Ethnic</h4>
                                 <p>View All</p>
                                 <p>View All</p>
 
-                            </div>
+                            </div> */}
                         </li>
-                        <li>Women Western
-                            <div class="subMenu">
+                        <li>Watch
+                            {/* <div class="subMenu">
                                 <h4>Topwear</h4>
                                 <p></p>
 
-                            </div>
+                            </div> */}
                         </li>
-                        <li>Men
-                            <div class="subMenu">
+                        <li>Headphone
+                            {/* <div class="subMenu">
                                 <h4>Topwear</h4>
-                            </div>
+                            </div> */}
                         </li>
-                        <li>Kids
-                            <div class="subMenu">
+                        <li>Laptop
+                            {/* <div class="subMenu">
                                 <h4>Boys & Girls 2+ Years</h4>
-                            </div>
+                            </div> */}
                         </li>
-                        <li>Home & Kitchen
-                            <div class="subMenu">
+                        <li>Smart Phone
+                            {/* <div class="subMenu">
                                 <h4>Home Furnishing</h4>
-                            </div>
+                            </div> */}
                         </li>
-                        <li>Beauty & Health
-                            <div class="subMenu">
+                        <li>Computer
+                            {/* <div class="subMenu">
                                 <h4>Make up</h4>
-                            </div>
+                            </div> */}
                         </li>
-                        <li>Jewellery & Accessories
-                            <div class="subMenu">
+                        <li>Accessories
+                            {/* <div class="subMenu">
                                 <h4>Jewellery</h4>
-                            </div>
+                            </div> */}
                         </li>
                         <li>Bags & Footwear
-                            <div class="subMenu">
+                            {/* <div class="subMenu">
                                 <h4>Women Bags</h4>
-                            </div>
+                            </div> */}
                         </li>
                         <li>Electronics
-                            <div class="subMenu">
+                            {/* <div class="subMenu">
                                 <h4>Mobile & Accessories</h4>
-                            </div>
+                            </div> */}
                         </li>
 
 
@@ -133,6 +137,7 @@ function Header() {
 
                 </nav>
 
+               </Link>
             </section>
 
 

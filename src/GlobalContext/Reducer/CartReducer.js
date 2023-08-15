@@ -82,7 +82,7 @@ if (action.type === "CART_TOTAL_ITEM"){
     // remove btn function
     if (action.type === "REMOVE_ITEM") {
         let updatedCart = state.cart.filter(
-            (curItem) => curItem.id === !action.payload,
+            (curItem) => curItem.id !== action.payload,
         );
         return {
             ...state,
